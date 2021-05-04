@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="./lib/boostrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <title>Quiz Game</title>
+  </head>
+  <body>
+    <body class="text-center">
+        <div class="grid">
+            <div id="quiz" class="centered grid__col--8">
+                <h1>Awesome Quiz</h1>
+        
+                <h2 id="question" class="headline-secondary--grouped"></h2>
+                <h3 id="score"></h3>       
+                <button id="guess0" class="btn btn-outline-danger btn-lg m-2"><p class="text-center" id="choice0"></p></button>
+                <br>               
+                <button id="guess1" class="btn btn-outline-danger btn-lg m-2 "><p class="text-center" id="choice1"></p></button>
+                <br>
+                <button id="guess2" class="btn btn-outline-danger btn-lg m-2 "><p class="text-center" id="choice2"></p></button>
+                <br>
+                <button id="guess3" class="btn btn-outline-danger btn-lg m-2 "><p class="text-center" id="choice3"></p></button>
+                <br>
+                
+                <p id="progress">Question x of y</p>
+                    
+            </div>
+        </div>
+    </body>
+
+    <script src="cordova.js"></script>
+    <script src="js/quiz.js"></script>
+  </body>
+</html>
