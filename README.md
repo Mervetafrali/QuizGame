@@ -2,7 +2,7 @@
 
 
 ## 1. Introduction
-In this project show us to how to implement js sdk game service to Cordova platform. 
+This project show us to how to implement game service. 
 
 ## 2. Installation Guide
 
